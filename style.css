@@ -1,0 +1,263 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+     
+
+    text-align: left;
+    animation-duration: 7s;
+    animation-timing-function:linear ;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-name: move;
+
+
+}
+@keyframes move{
+    0%{color: aliceblue;}
+
+    10%{color: aqua;}
+
+    20% {color: rgb(4, 91, 91);}
+
+    30% {color: aquamarine;}
+
+    40% {color: azure;}
+
+    50% {color: bisque;}
+
+    60% {color: black;}
+
+    70% {color: blue;}
+
+    80% {color: brown;}
+
+    90% {color: red;}
+
+    100%{color: pink;}
+}
+
+
+
+
+
+
+main{
+    height: 800px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.block1{
+ width: 25%;
+ height: 500px;
+ background-color: blue;
+ padding: 10px;
+}
+.block2{
+    width: 25%;
+    height: 500px;
+    background-color:bisque;
+    padding: 10px;
+
+}
+.block3{
+    width: 25%;
+    height: 500px;
+    background-color:blueviolet;
+    padding: 10px;
+
+}
+.block4{
+    width: 25%;
+    height: 500px;
+    background-color: brown;
+    padding: 10px;
+}
+.block1 li{
+    background-color: aliceblue;
+    line-height: 2em ;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+.block2 li{
+    background-color: aliceblue;
+    line-height: 2em ;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+.block3 li{
+    background-color: aliceblue;
+    line-height: 2em ;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+.block4 li{
+    background-color: aliceblue;
+    line-height: 2em ;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+.block1 li:hover{
+    background-color: aquamarine;
+    color: brown;
+    list-style-type: \274C;
+    width: 70%;
+    height: 70px;
+}
+.block2 li:hover{
+    background-color: aquamarine;
+    color: brown;
+    list-style-type: \274C;
+    width: 70%;
+    height: 70px;
+}
+.block3 li:hover{
+    background-color: aquamarine;
+    color: brown;
+    list-style-type: \274C;
+    width: 70%;
+    height: 70px;
+}
+.block4 li:hover{
+    background-color: aquamarine;
+    color: brown;
+    list-style-type: \274C;
+    width: 70%;
+    height: 70px;
+}
+.nav{
+    position: sticky;
+    top:0;
+
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    font-size: 20px;
+    border: 5px solid white;
+    overflow: hidden;
+    /* display: flex; */
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    float: left;
+}
+.nav a:hover{
+    background-color: bisque;
+    color: brown;
+
+}
+.block5{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: aliceblue;
+}
+.btn1{
+    width: 300px;
+    height: 70px;
+    background-color: aliceblue;
+    color: black;
+    padding: 20px 30px;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0px 0px 100px black;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: bisque;
+    color: black;
+    border: 5px solid black;
+    box-shadow: 0px 0px 0px black ;
+}
+.btn1:active{
+    background-color: rgb(86, 52, 1);
+    color: brown;
+}
+form{
+    float: right;
+    display: flex;
+
+}
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+.search{
+    width: 200px;
+
+}
+.button{
+    width: 105px;
+    background-color: aliceblue;
+    color: black;
+
+}
+.button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
